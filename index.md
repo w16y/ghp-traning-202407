@@ -2,6 +2,12 @@
 layout: default
 ---
 
+| a  | w | w | w | r  |
+|----|---|---|---|----|
+| v  | b | n |   | m  |
+| ,n | b | n |   | b<br>b |
+| b  | b | h | n | n  |
+
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 
