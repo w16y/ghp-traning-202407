@@ -2,26 +2,15 @@
 layout: default
 ---
 
+
+# this is a test massage
+
 | a  | w | w | w | r  |
 |----|---|---|---|----|
 | v  | b | n |   | m  |
 | ,n | b | n |   | b<br>b |
 | b  | b | h | n | n  |
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 

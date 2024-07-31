@@ -1,8 +1,19 @@
-version: "3"
 services:
-    site:
-        image: starefossen/github-pages:latest
-        volumes:
-            - ./docs:/usr/src/app
-        ports:
-            - 4000:4000
+  gh-pages:
+    build:
+      context: https://github.com/github/pages-gem.git#v231
+      dockerfile: Dockerfile.alpine
+    command: sh -c "bundle install && jekyll serve --watch --force_polling -H 0.0.0.0 -P 4000"
+    ports:
+      - "4000:4000"
+    volumes:
+      - type: bind
+        source: docs
+        target: /src/site
+        volume:
+          nocopy: true
+      - type: bind
+        source: ./Gemfile
+        target: /src/site/Gemfile
+    environment:
+      - PAGES_REPO_NWO=username/repo-name
