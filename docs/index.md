@@ -3,14 +3,27 @@ layout: default
 ---
 
 
-# this is a test massage
-# hello,ayumi
+# オープンデータとは
+オープンデータとは，「機械判読に適したデータ形式で、二次利用が可能な利用ルールで公開されたデータ」であり「人手を多くかけずにデータの二次利用を可能とするもの」です。つまり，誰でも許可されたルールの範囲内で自由に複製・加工や頒布などができるデータをいいます。もちろん商用としても利用可能です。
 
-| a  | w | w | w | r  |
-|----|---|---|---|----|
-| v  | b | n |   | m  |
-| ,n | b | n |   | b<br>b |
-| b  | b | h | n | n  |
+
+
+# データ項目説明
+| status | ライブカメラが視聴可能か |
+|--------|--------------------------|
+| title  | URLのページタイトル                      |
+| URL    | URL                      |
+| category  | 河川/海岸/山岳/道路/空港/鉄道/観光/その他のどれかにカテゴリー分け                         |
+| poi       | Point Of Interesting、施設名など        |
+| 設置場所    | カメラの設置場所、位置                         |
+| address    |  住所                        |
+| source      |  公開しているサイト、またはアカウント名                     |
+| source_URL    | sourceのURL                         |
+| longitude    |  経度                        |
+| latitude    |     緯度                   |
+| last_updated |  最終更新日時                      |
+
+
 
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
