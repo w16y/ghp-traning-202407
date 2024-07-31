@@ -6,7 +6,7 @@ layout: default
 本サイトは2024年8月1日より無償で利用可能であり、自治体や個人が公開しているライブカメラ映像をオープンデータとして公開しています。
 
 公式GitHub
->[https://github.com/w16y/opendata-livecamera-jp](./https://github.com/w16y/opendata-livecamera-jp)
+>[https://github.com/w16y/opendata-livecamera-jp](https://github.com/w16y/opendata-livecamera-jp)
 
 # サイトの基本方針
 本サイトで公開されているオープンデータは、機械判読が可能な形式となっており、営利目的、非営利目的を問わず利用が可能です。
@@ -20,23 +20,23 @@ layout: default
 オープンデータとは，「機械判読に適したデータ形式で、二次利用が可能な利用ルールで公開されたデータ」であり「人手を多くかけずにデータの二次利用を可能とするもの」です。つまり，誰でも許可されたルールの範囲内で自由に複製・加工や頒布などができるデータをいいます。もちろん商用としても利用可能です。
 
 # データカタログ
->[オープンデータ一覧](./https://github.com/w16y/opendata-livecamera-jp)
+>[オープンデータ一覧](https://github.com/w16y/opendata-livecamera-jp)
 
-# データ項目説明
+## データ項目説明
 
 | 項目        | 内容                                          |
 |--------------|-------------------------------------------------------------------|
-| status        | ライブカメラが視聴可能か                                               |
-| title        | URLのページタイトル                                               |
-| URL          | URL                                                               |
-| category     | 河川/海岸/山岳/道路/空港/鉄道/観光/その他のどれかにカテゴリー分け |
-| poi          | Point Of Interesting、施設名など                                  |
-| 設置場所     | カメラの設置場所、位置                                            |
-| address      | 住所                                                              |
-| source       | 公開しているサイト、またはアカウント名                            |
-| source_URL   | sourceのURL                                                       |
-| longitude    | 経度                                                              |
-| latitude     | 緯度                                                              |
-| last_updated | 最終更新日時                                                      |
+| **status**        | ライブカメラが視聴可能か                                               |
+| **title**        | URLのページタイトル                                               |
+| **URL**          | URL                                                               |
+| **category**     | 河川/海岸/山岳/道路/空港/鉄道/観光/その他のどれかにカテゴリー分け |
+| **poi**          | Point Of Interesting、施設名など                                  |
+| **設置場所**     | カメラの設置場所、位置                                            |
+| **address**       | 住所                                                              |
+| **source**        | 公開しているサイト、またはアカウント名                            |
+| **source_URL**    | sourceのURL                                                       |
+| **longitude**     | 経度                                                              |
+| **latitude**      | 緯度                                                              |
+| **last_updated**  | 最終更新日時                                                      |
 
 
